@@ -1,1 +1,1 @@
-aws cp --recursive --acl public-read ./www s3://fspbucket/
+aws cp --recursive --acl public-read ./WWW s3://fspbucket/

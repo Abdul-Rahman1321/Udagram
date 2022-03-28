@@ -10,7 +10,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy":  "attrib +x bin/deploy.sh && powershell bin/deploy.sh"
+    "deploy":  "attrib +x bin/deploy.sh && powershell ./bin/deploy.sh"
   },
   "private": true,
   "dependencies": {
