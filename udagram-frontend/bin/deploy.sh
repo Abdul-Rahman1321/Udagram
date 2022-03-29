@@ -1,1 +1,1 @@
-aws cp --recursive --acl public-read ./WWW s3://deployudagrambucket/
+aws s3 cp --recursive --acl public-read ./WWW s3://deployudagrambucket/
