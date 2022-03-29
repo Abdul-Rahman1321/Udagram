@@ -1,2 +1,2 @@
-eb deploy udagram-api/WWW
+eb deploy udagram-api
 eb setenv PORT=$PORT ENV=$ENV DB_USER=$DB_USER BD_PASSWORD=$DB_PASSWORD DB_HOST=$DB_HOST DB_NAME=$DB_NAME DB_PORT=$DB_PORT
