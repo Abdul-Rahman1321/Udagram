@@ -5786,7 +5786,7 @@
     "err-code" "^2.0.2"
     "retry" "^0.12.0"
 
-"protractor@^7.0.0", "protractor@~5.4.0":
+"protractor@^5.4.2", "protractor@^7.0.0":
   "integrity" "sha512-zlIj64Cr6IOWP7RwxVeD8O4UskLYPoyIcg0HboWJL9T79F1F0VWtKkGTr/9GN6BKL+/Q/GmM7C9kFVCfDbP5sA=="
   "resolved" "https://registry.npmjs.org/protractor/-/protractor-5.4.2.tgz"
   "version" "5.4.2"
