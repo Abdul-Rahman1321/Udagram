@@ -72,7 +72,56 @@ The e2e tests are using Protractor and Jasmine.
 [UDAGRAM HOME PAGE](http://deployudagrambucket.s3-website-us-east-1.amazonaws.com)
 
 
+----------------------------
 
-## License
+## INFRASTRUCTURE 
 
-[License](LICENSE.txt)
+> IN this project we used aws services to deploy our web app
+
+- ***RDS DATABASE*** to host the database with the endpoint :*database-1.cc5yionnyy5m.us-east-1.rds.amazonaws.com* 
+
+
+- ***ELASTIC BEANSTALK*** service that run the application on web server : http://udagram-api-dev.eba-ypgxhz5x.us-east-1.elasticbeanstalk.com/api/v0
+
+
+
+- ***S3 BUCKET*** to host the ***udagram*** web app on :
+http://deployudagrambucket.s3-website-us-east-1.amazonaws.co
+
+
+----------------
+
+## INFRASTRUCTURE DIAGRAM
+
+<a href="https://seupload.com/uzH/diag.PNG" target="_blank" title="Download from SeUpload, share and manage your files for free"><img src="https://cloudse1.seupload.com/cache/plugins/filepreviewer/17533/9fbccdb47ba7964de3d940a1cde9bcb86cd064926be6483cb294e63a908c0b76/900x900_cropped.jpg"/></a>
+
+-------------
+
+## CIRCLECI 
+
+### steps :
+- #### installing orbs :
+```
+orbs:
+  node: circleci/node@5.0.0
+  aws-cli: circleci/aws-cli@2.0.6
+  eb: circleci/aws-elastic-beanstalk@2.0.1
+```
+- ### installing the frontend 
+
+- ### installing the backend 
+
+- ### building the frontend 
+
+- ### building the backend 
+
+- ### deploying the frontend 
+
+- ### deploying the backend 
+
+
+> The circleci pipline starts automatically when any change is done by the developer and pushed to the git repo ... 
+
+## DIAGRAM
+
+<a href="https://seupload.com/uzL/circ_uda.png" target="_blank" title="Download from SeUpload, share and manage your files for free"><img src="https://cloudse1.seupload.com/cache/plugins/filepreviewer/17537/84d5b7a0291f126778b22cc490054916b847cf4bbc8c6cce3cfa391dfbb684ff/900x900_cropped.jpg"/></a>
