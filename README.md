@@ -93,35 +93,29 @@ http://deployudagrambucket.s3-website-us-east-1.amazonaws.co
 
 ## INFRASTRUCTURE DIAGRAM
 
-<a href="https://seupload.com/uzH/diag.PNG" target="_blank" title="Download from SeUpload, share and manage your files for free"><img src="https://cloudse1.seupload.com/cache/plugins/filepreviewer/17533/9fbccdb47ba7964de3d940a1cde9bcb86cd064926be6483cb294e63a908c0b76/900x900_cropped.jpg"/></a>
+<a href="https://seupload.com/uDp/DIADIA.PNG" target="_blank" title="Download from SeUpload, share and manage your files for free"><img src="https://cloudse1.seupload.com/cache/plugins/filepreviewer/17763/ab7765f93115f27ac24700e42ae4c5e0906e28961b8aabcb7d4086cc04fdec2f/700x700_cropped.jpg"/></a>
 
 -------------
 
 ## CIRCLECI 
 
-### steps :
-- #### installing orbs :
+### ***STEPS*** :
+- SPIN UP ENVIRONMENT
+- PREPARING ENVIRONMENT VARIABLES
+- INSTALLING ORBS THEN CONFIGURING AWS CEREDENTIALS :
 ```
 orbs:
   node: circleci/node@5.0.0
   aws-cli: circleci/aws-cli@2.0.6
   eb: circleci/aws-elastic-beanstalk@2.0.1
 ```
-- ### installing the frontend 
+- INSTALLING & BUILDING THE APP TO PREPARE IT FOR DEPLOYMENT
 
-- ### installing the backend 
-
-- ### building the frontend 
-
-- ### building the backend 
-
-- ### deploying the frontend 
-
-- ### deploying the backend 
+- DEPLOYING THE APP
 
 
 > The circleci pipline starts automatically when any change is done by the developer and pushed to the git repo ... 
 
 ## DIAGRAM
 
-<a href="https://seupload.com/uzL/circ_uda.png" target="_blank" title="Download from SeUpload, share and manage your files for free"><img src="https://cloudse1.seupload.com/cache/plugins/filepreviewer/17537/84d5b7a0291f126778b22cc490054916b847cf4bbc8c6cce3cfa391dfbb684ff/900x900_cropped.jpg"/></a>
+<a href="https://seupload.com/uDw/CIRPIP_(2).png" target="_blank" title="Download from SeUpload, share and manage your files for free"><img src="https://cloudse1.seupload.com/cache/plugins/filepreviewer/17770/61fb0e80595cd4caaae6b3f1a3e25f24f70187bf30c203e30aec1a4e4457d540/700x800_cropped.jpg"/></a>
